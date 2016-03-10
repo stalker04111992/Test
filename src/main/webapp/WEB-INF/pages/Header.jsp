@@ -17,17 +17,12 @@
         <div id="navigation">
             <ul>
                 <li><a href="index">Главная</a></li>
-                <c:if test="${auth != null}">
-                    <li><a href="logout">Здравствуйте, ${auth.GetUsername()}</a></li>
-                    <li><a href="add">Добавить</a></li>
-                    <li><a href="edit">Редактировать</a></li>
-                    <li><a href="view">Просмотреть</a></li>
-                    <li class="last"><a href="logout">Выход</a></li>
-                </c:if>
-                <c:if test="${auth == null}">
-                    <li><a href="registration">Регистрация</a></li>
-                    <li class="last"><a href="login">Вход</a></li>
-                </c:if>
+                <li><a href="logout">Здравствуйте, ${auth.GetUsername()}</a></li>
+                <li><a href="add">Добавить</a></li>
+                <li><a href="edit">Редактировать</a></li>
+                <li><a href="view">Просмотреть</a></li>
+                <li class="last"><a href="logout">Выход</a></li>
+
             </ul>
         </div>
     </div>
