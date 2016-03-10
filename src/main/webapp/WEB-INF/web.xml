@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.gif</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.hbm.xml</url-pattern>
+    </servlet-mapping>
+
+</web-app>
